@@ -1,0 +1,28 @@
+{% block content %}
+{{ t.imen }} imen
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">.</th>
+      <th scope="col">22</th>
+      <th scope="col">karazt</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for t in row %}
+    <tr>
+      
+      <td>{{ t }}</td>
+      <td>{{ t}}</td>
+      <td>{{ t}}</td>
+      {{ i }}
+        
+       
+    </tr>
+
+      {% endfor %}
+
+  </tbody>
+</table>
+{% endblock  %}
